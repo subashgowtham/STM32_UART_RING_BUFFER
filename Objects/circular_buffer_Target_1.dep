@@ -1,0 +1,30 @@
+Dependencies for Project 'circular_buffer', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x67528C70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-I"C:/Users/SUBASH GOWTHAM/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include"-I"C:/Users/SUBASH GOWTHAM/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MMD)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD9C86)
+I (RTE\_Target_1\RTE_Components.h)(0x6751A56C)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BFBB0)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD9C86)
+I (delay.h)(0x674EF50F)
+I (uart_ringbuffer.h)(0x67528C41)
+F (..\UART_RING_BUFFER\delay.c)(0x67528C70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-I"C:/Users/SUBASH GOWTHAM/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include"-I"C:/Users/SUBASH GOWTHAM/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/delay.o -MMD)
+I (..\UART_RING_BUFFER\delay.h)(0x67528A50)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD9C86)
+I (RTE\_Target_1\RTE_Components.h)(0x6751A56C)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BFBB0)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD9C86)
+F (.\uart_ringbuffer.c)(0x67528C70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-I"C:/Users/SUBASH GOWTHAM/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include"-I"C:/Users/SUBASH GOWTHAM/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/uart_ringbuffer.o -MMD)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD9C86)
+I (RTE\_Target_1\RTE_Components.h)(0x6751A56C)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BFBB0)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD9C86)
+I (uart_ringbuffer.h)(0x67528C41)
+F (..\UART_RING_BUFFER\delay.h)(0x67528A50)()
+F (.\uart_ringbuffer.h)(0x67528C41)()
+F (RTE/Device/STM32F103C8/RTE_Device.h)(0x5FC07312)()
+F (RTE/Device/STM32F103C8/startup_stm32f10x_md.s)(0x61AD9C86)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-I"C:/Users/SUBASH GOWTHAM/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include"-I"C:/Users/SUBASH GOWTHAM/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE/Device/STM32F103C8/system_stm32f10x.c)(0x61AD9C86)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-I"C:/Users/SUBASH GOWTHAM/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include"-I"C:/Users/SUBASH GOWTHAM/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MMD)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD9C86)
+I (RTE\_Target_1\RTE_Components.h)(0x6751A56C)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BFBB0)
+I (C:\Users\SUBASH GOWTHAM\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD9C86)
